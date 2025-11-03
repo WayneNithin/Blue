@@ -1,0 +1,371 @@
+/* .top-bottom-wrapper {
+    float: left;
+    width: 100%;
+    background-color: beige;
+}
+.search-section {
+    float: left;
+    width: 37.5%;
+}
+.user-cart-section {
+    float: left;
+    width: 37.5%;
+} */
+
+
+/* Wrapper section */
+/* .user-cart-section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+} */
+
+/* --- Search Section --- */
+/* .search-section {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #f8f9fa;
+  padding: 8px 12px;
+  border-radius: 6px;
+  max-width: 100%;
+  flex: 1;
+} */
+
+/* .search-section input[type="text"] {
+  flex-grow: 1;
+  border: none;
+  background: transparent;
+  padding: 8px;
+  font-size: 14px;
+  outline: none;
+} */
+
+/* .search-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.search-btn:hover {
+  background-color: #0056b3;
+} */
+
+/* --- User Dropdown --- */
+/* .user-dropdown {
+  position: relative;
+}
+
+.user-toggle {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 8px 10px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.user-toggle:hover {
+  background-color: #e1e1e1;
+} */
+
+/* .user-label {
+  font-size: 14px;
+  color: #333;
+}
+
+.user-label i {
+  margin-left: 5px;
+  font-size: 12px;
+} */
+
+/* Dropdown content */
+/* .dropdown-menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  min-width: 160px;
+  background-color: white;
+  border-radius: 4px;
+  margin-top: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: none;
+  z-index: 10;
+}
+
+.user-dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu li {
+  border-bottom: 1px solid #eee;
+}
+
+.dropdown-menu li:last-child {
+  border-bottom: none;
+}
+
+.dropdown-menu a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #333;
+}
+
+.dropdown-menu a:hover {
+  background-color: #f5f5f5;
+}
+
+.divider {
+  height: 1px;
+  background: #ccc;
+  margin: 5px 0;
+} */
+
+/* --- Cart Section --- */
+/* .cart-icon {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 8px 10px;
+  background-color: #f1f1f1;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cart-label {
+  font-size: 14px;
+  color: #333;
+} */
+
+/* --- Responsive Styles --- */
+/* @media (max-width: 768px) {
+  .user-cart-section {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+
+  .search-section {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .search-btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .dropdown-menu {
+    right: 0;
+    left: auto;
+  }
+}
+.top-bottom-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 10px 20px;
+} */
+
+/* Logo section stays left */
+/* .logo-section {
+  flex: 1;
+} */
+
+/* Parent container */
+/* .search-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 0 10px;
+} */
+
+/* Input field */
+/* .search-input {
+  flex: 1;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+
+/* Button with icon */
+/* .search-btn {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: 2px solid #007bff;
+  border-left: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-btn:hover {
+  background-color: #0056b3;
+}  */
+
+/* Responsive layout */
+/* @media (max-width: 576px) {
+  .search-container {
+    flex-direction: column;
+  }
+
+  .search-input,
+  .search-btn {
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    margin: 5px 0;
+  }
+
+  .search-btn {
+    border: none;
+    background-color: #007bff;
+  }
+} */
+
+/* Search stays in center */
+/* .search-section {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #f8f9fa;
+  padding: 8px 12px;
+  border-radius: 6px;
+  flex: 2;
+  max-width: 100%;
+} */
+
+/* User & Cart aligned to right */
+/* .user-cart-section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-left: auto; 
+} */
+
+/* ... (rest of your styles remain unchanged) ... */
+
+
+
+.top-bottom-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #cedbe9;
+  flex-wrap: wrap;
+}
+
+/* Logo section */
+.logo-section {
+  flex: 0 0 auto;
+}
+
+.logo-img {
+  max-height: 50px;
+}
+
+/* Search bar in the center */
+.search-container {
+  flex: 1 1 auto;
+  max-width: 500px;
+  margin: 0 20px;
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+
+.search-btn {
+  padding: 10px 15px;
+  background-color: #293a8b;
+  color: white;
+  border: 2px solid #293a8b;
+  border-left: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+/* User & cart section on the right */
+.user-cart-section {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* User dropdown */
+.user-dropdown {
+  position: relative;
+}
+
+.user-toggle {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  right: -45px;
+  background: white;
+  border: 1px solid #ddd;
+  list-style: none;
+  padding: 10px;
+  display: none;
+}
+.user-dropdown .dropdown-menu li a {
+    display: block;
+    padding: 15px 3px 0px 0px;
+    color: #333;
+    white-space: nowrap;
+    text-decoration: none;
+    text-align: center;
+}
+
+.user-dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.cart-icon {
+  display: flex;
+  align-items: center;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .top-bottom-wrapper {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .search-container {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .user-cart-section {
+    justify-content: center;
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,42 @@
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 24px;
+  padding: 20px;
+}
+
+.bb-pro-box {
+  border: 1px solid #eee;
+  padding: 16px;
+  border-radius: 12px;
+  background-color: #fff;
+  transition: transform 0.2s ease;
+}
+.bb-pro-box:hover {
+  transform: scale(1.02);
+}
+.inner-img {
+  position: relative;
+}
+.main-img {
+  width: 100%;
+}
+.hover-img {
+  display: none;
+  width: 100%;
+}
+.bb-pro-box:hover .main-img {
+  display: none;
+}
+.bb-pro-box:hover .hover-img {
+  display: block;
+}
+ul.bb-pro-actions {
+    margin: 0;
+    padding: 0;
+}
+ul.bb-pro-actions li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px 6px 0px 17px;
+}

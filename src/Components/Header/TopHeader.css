@@ -1,0 +1,36 @@
+/* Prevent horizontal overflow */
+body {
+  overflow-x: hidden;
+}
+
+.bg-lighter {
+    background-color: #3d4750;
+}
+
+
+/* Dropdown list items */
+/* .dropdown li a {
+  display: block;
+  padding: 8px 12px;
+  color: #333;
+  font-size: 14px;
+  text-decoration: none;
+} */
+
+/* Hover effect */
+/* .dropdown li a:hover {
+  background-color: #f8f8f8;
+} */
+
+/* Responsive fix */
+/* @media (max-width: 575.98px) {
+  .col-right-bar {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .dropdown {
+    left: auto;
+    right: 0;
+  }
+} */

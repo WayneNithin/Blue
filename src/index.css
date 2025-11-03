@@ -1,0 +1,218 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+.topheader {
+    background-color: #3d4750;
+    float: left;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    padding: 0;
+}
+.top-lft {
+   float: right;
+    width: 75%;
+    text-align: right;
+    padding-right: 100px;
+}
+
+.top-lft ul {
+  margin:0;
+  padding:0;
+  list-style: none;
+  display: flex;
+  align-items: anchor-center;
+  justify-content: end;
+}
+.top-lft ul li {
+ display: inline-block;
+  margin-top: -25px;
+}
+.top-lft ul li a {
+   text-decoration: none;
+  list-style-type: none;
+  font-size: 15px;
+  color: #ccc;
+  margin: 0px 20px;
+  text-transform: capitalize;
+}
+button#dropdown-basic {
+    background: inherit;
+    border: none;
+}
+.header-right .dropdown-toggle.dropdown-item:focus, .dropdown-item:hover {
+    color: #000;
+}
+/* a.dropdown-item {
+    margin: 0 !important;
+    color: #fff !important;
+    text-transform: capitalize !important;
+}
+.header-right .dropdown .dropdown-toggle:hover {
+    color: #fff;
+  
+}
+.header-right .dropdown-toggle { 
+   color: #000;
+}
+.header-right.dropdown-toggle::after {
+  display: none;
+} */
+
+ /* Banner section*/
+ .bg-box-color-two:before {
+    background-color: #ffc6ce;
+}
+.banner-box {
+    padding: 30px;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.banner-box:before {
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    content: "";
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    left: -218px;
+    top: -200px;
+    bottom: 0;
+    rotate: 40deg;
+    z-index: 0;
+}
+
+
+.banner-box .inner-banner-box .inner-contact {
+    max-width: 250px;
+    padding: 0 12px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.banner-box:after {
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    content: "";
+    width: 150px;
+    height: 300px;
+    position: absolute;
+    right: -70px;
+    bottom: -100px;
+    rotate: 40deg;
+    z-index: 0;
+}
+.bg-box-color-two:after {
+    background-color: #ffc6ce;
+}
+.banner-box .inner-banner-box {
+    position: relative;
+    z-index: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.bg-box-color-one::before {
+    background-color: #f4dab4;
+}
+.bg-box-color-one::after {
+    background-color: #f4dab4 ;
+}
+.banner-box:after {
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    content: "";
+    width: 150px;
+    height: 300px;
+    position: absolute;
+    right: -30px;
+    bottom: -100px;
+    rotate: 40deg;
+    z-index: 0;
+}
+.brg {
+    z-index: 1;
+}
+
+/* Product page*/
+.main-wrap {
+    background-color: beige;
+    padding: 40px;
+}
+.border-style {
+    width: 89px;
+    height: 40px;
+    padding: 7px 0px;
+    border: 1px solid #eee;
+    overflow: hidden;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    background: #fff;
+    border-radius: 10px;
+}
+.border-style input.qty-input {
+    border: none;
+}
+.qty-plus-minus .bb-qtybtn {
+    width: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 100%;
+    cursor: pointer;
+    font-size: 20px;
+    color: #777;
+   
+  cursor: pointer;
+}
+.zoom-box {
+  width: 100%;
+  max-width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: 1px solid #ccc;
+  transition: background-size 0.3s ease, transform 0.3s ease;
+  cursor: zoom-in;
+}
